@@ -1,0 +1,6 @@
+## Title: Auto Deposit Materials
+## Description: Deposit all you materials in your inventory into your bank when at once
+## Author: Tyice
+## APIVersion: 100026
+
+AutoDepositMaterials.lua
