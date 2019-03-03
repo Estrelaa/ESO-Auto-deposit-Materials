@@ -6,7 +6,7 @@ ADM.name = "Auto Deposit Materials"
 
 -- Intialize the addon
 function ADM:Intialize()
-
+    d("Addon is working")
 end
 
 -- Event handler for when this addon is loaded
@@ -18,3 +18,4 @@ end
 
 -- Register event handlers
 EVENT_MANAGER:RegisterForEvent(ADM.name, EVENT_ADD_ON_LOADED, ADM.OnAddonLoaded)
+    ADM.Intialize()
